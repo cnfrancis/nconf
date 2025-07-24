@@ -10,5 +10,6 @@
     ripgrep
     htop
     git
+    uv
   ];
 }
