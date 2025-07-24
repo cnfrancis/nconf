@@ -11,5 +11,6 @@
     htop
     git
     uv
+    python313Full
   ];
 }

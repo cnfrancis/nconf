@@ -14,6 +14,6 @@ ssh "${HOST}" "nixos-rebuild dry-run"
 
 
 echo "-> Applying Configuration"
-ssh "${HOST}" "nixos-rebuild switch"
+ssh "${HOST}" "nixos-rebuild switch -j 4"
 
 echo "✅ Deployment complete"
